@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f5fc;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    border: 1px solid #000;
+
+    width: 375px;
+    height: 96px;
+}
+
+.logotipo{
+    height: 48px;
+    position: relative;
+    top: 24px;
+    left: 16px;
+}
+
+#cajaTexto{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    
+    width: 343px;
+    height: 251px;
+    margin-top: 56px;
+    font-family: Inter;
+    font-size: 32px;
+    color: #0a3871;
+}
+
+::placeholder{
+    color: #0a3871;
+}
+
+.aviso{
+    border: 1px solid #0a3871;
+    font-family: Inter;
+    font-size: 12px;
+    color: #0a3871;
+    margin-top: 64px;
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.exclamacion{
+    margin-right: 8px;
+}
+
+.botones{
+    border: 1px solid #0a3871;
+    
+}
+
+#botonEncriptar{
+    border: none;
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0a3871;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.3s;
+    margin-bottom: 24px;
+    display: block;
+}
+
+#botonEncriptar:hover{
+    cursor: pointer;
+    background-color: #092a52;
+}
+
+#botonDesencriptar{
+    border: none;
+    width: 343px;
+    height: 67px;
+    border-radius: 24px;
+    border: solid 1px #0a3871;
+    font-size: 16px;
+    color: #0a3871;
+    transition: all 0.3s;
+    margin-top: 16px;
+}
+
+#botonDesencriptar:hover{
+    cursor: pointer;
+    background-color: #e4e4e4;
+}
+
+.resultado{
+    width: 327px;
+    height: 186px;
+    
+    
+    padding: 32px;
+
+    border: none;
+    border-radius: 32px;
+    box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    margin: 64px auto 40px;
+}
+
+.mensajeNulo{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+}
+
+.ingresaMensaje{
+    font-family: Inter;
+    font-size: 16px;
+    color: #495057;
+
+    margin-top: 16px;
+    text-align: center;
+}
+
+/* @media (min-width: 768px){
+nav{
+    width: 768px;
+}
+
+#botonEncriptar{
+    display: inline;
+}
+
+.resultado{
+    width: 688px;
+}
+} */
